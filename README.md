@@ -1,1 +1,5 @@
-# openmc-lab
+- Install docker(https://www.docker.com/products/docker-desktop/)
+- download this repository file and extract in the local
+- run `docker-compose up` - make sure docker is running
+- Look for token in the log, then use the url with the token to open jupyter in the browser
+- Content in your files directory should be visible inside the jupter work diretory
