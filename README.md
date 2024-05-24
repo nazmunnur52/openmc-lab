@@ -1,5 +1,6 @@
 - Install docker(https://www.docker.com/products/docker-desktop/)
 - download this repository file and extract in the local
+- Extract the folder and open it in vscode/terminal. Make sure docker-compose is under the root directory.
 - run `docker-compose up` - make sure docker is running
 - Look for token in the log, then use the url with the token to open jupyter in the browser
 - Content in your files directory should be visible inside the jupter work diretory
