@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  jupyter:
+    image: jupyter/datascience-notebook
+    volumes:
+      - ./files:/home/jovyan/work # bind mount
+      - ./files/configure_environment.sh:/usr/local/bin/before-notebook.d/configure_environment.sh # bind mount
+    ports:
+      - "8888:8888"
